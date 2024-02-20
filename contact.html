@@ -1,9 +1,9 @@
-   <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Delivery App</title>
+    <title>Contact - Food Delivery App</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* General Styles */
@@ -143,10 +143,18 @@ footer {
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Welcome to Food Delivery App</h2>
-        <p>Order food from your favorite restaurants and enjoy delicious meals delivered to your doorstep!</p>
-        <a href="menu.html" class="btn">Order Now</a>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or feedback? Reach out to us!</p>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
